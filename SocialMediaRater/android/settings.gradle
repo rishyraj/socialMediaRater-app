@@ -1,0 +1,3 @@
+rootProject.name = 'SocialMediaRater'
+
+include ':app'
