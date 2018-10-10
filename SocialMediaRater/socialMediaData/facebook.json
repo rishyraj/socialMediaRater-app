@@ -1,9 +1,10 @@
 {
     "history": {
-        "privacy": false,
+        "privacy": "F",
         "privacyDetails": "Facebook has had multiple privacy violations, including the infamous Cambridge Analytica Scandal; in fact it is so bad that the FTC is considering investigating them.",
-        "security": false,
-        "securityDetails": "Facebook has had multiple data leaks including one recently where 87 million accounts data was compromised"
+        "security": "F",
+        "securityDetails": "Facebook has had multiple data leaks including one recently where 87 million accounts data was compromised",
+        "value": 0.5
     },
     "userbase": {
         "amount": 10,
@@ -27,7 +28,7 @@
         "deleteDetails": "Facebook gives users two options: Deactivation or Deletion of Account. The first option is very simple to do, but the last option is much more difficult and it can take Facebook up to 6 months to delete your account." 
     },
     "notification": {
-        "notify": true,
+        "notify": false,
         "notifyDetails": "Facebook typically notifies its users of privacy policy changes, but it just sends a link to the privacy policy, which is overly complicated."
     },
     "summary": {

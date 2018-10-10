@@ -1,0 +1,38 @@
+{
+    "history": {
+        "privacy": "D",
+        "privacyDetails": "Twitter has a history of not respecting privacy rights, the most recent one being a class action from New Mexico for allegedly violating kids' Privacy",
+        "security": "F",
+        "securityDetails": "Twitter has had a poor history of security, and frequently tells users to change its passwords due to data leaks.",
+        "value": 0.55
+    },
+    "userbase": {
+        "amount": 5,
+        "amountDetails": "335 Million users."
+    },
+    "anonymous": {
+        "value": false,
+        "details": "Twitter Users Names and posts are available for any user to see."
+    },
+    "tracking": {
+        "cookies": false,
+        "cookiesDetails": "Twitter can function without tracking cookies",
+        "SSO": true,
+        "SSODetails": "There are multiple apps on the appstore that uses Twitter Oauth to sign into their app. Depending on the app, Reddit may be getting tracking data."
+    },
+    "ownership": {
+        "personalData":true,
+        "personalDataDetails": "Twitter makes it easy to delete your posts and according to its policy, users own their tweets, however recent behavior from Twitter suggests that may not be true.",
+        "delete": true,
+        "deleteDifficulty": 1,
+        "deleteDetails": "Deleting a Twitter account is as easy as entering in your password." 
+    },
+    "notification": {
+        "notify": false,
+        "notifyDetails": "Twitter typically notifies its users of privacy policy changes. Twitter gives a bulletted list of changes but it is usually indirect and to have any idea of the actual changes, the user must read the privacy policy."
+    },
+    "summary": {
+        "grade": "C",
+        "details": "Twitter is an average social media with respect to privacy. Twitter has a poor history of respecting user privacy outside of Twitter and has had multiple security issues. However, Twitter doesn't need cookies to function and users have more control of their Twitter account than other social medias including Facebook and Instagram."
+    }
+}

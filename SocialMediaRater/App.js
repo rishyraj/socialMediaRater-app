@@ -33,7 +33,7 @@ const options = {
       label: 'Do you want ownership of the content you post?'
     },
     notify: {
-      label: 'Do you want to be notified when changes are made to Privacy Policy or Terms of Service (ToS)?'
+      label: 'Do you want to be notified when changes are made to Privacy Policy and be informed in plain language what exactly those changes are?'
     }
   }
 }
@@ -101,7 +101,7 @@ class SubmitScreen extends React.Component {
     return (
       <View style={{backgroundColor: '#353330', flex: 1}}>
         <View style={{alignItems:'center'}}>
-          <Text style ={styles.titleText}>Submission Successful, Loading Suggested Social Media</Text>
+          <Text style ={styles.titleText}>Submission Successful</Text>
         </View>
       </View>
     );

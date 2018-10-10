@@ -1,9 +1,10 @@
 {
     "history": {
-        "privacy": true,
+        "privacy": "A",
         "privacyDetails": "Reddit generally has a good reputation with privacy since they don't collect a lot of data",
-        "security": false,
-        "securityDetails": "Reddit has had quite a few data leaks over its history including a leak of early Reddit user data from 2005-2007, as well as an exploitation of 2 factor authentication."
+        "security": "C",
+        "securityDetails": "Reddit has had quite a few data leaks over its history including a leak of early Reddit user data from 2005-2007, as well as an exploitation of 2 factor authentication.",
+        "value": 0.85
     },
     "userbase": {
         "amount": 9,

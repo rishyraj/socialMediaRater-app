@@ -1,0 +1,38 @@
+{
+    "history": {
+        "privacy": "B",
+        "privacyDetails": "Instagram hasn't had many cases of violating user privacy inside or outside of Instagram",
+        "security": "C",
+        "securityDetails": "Instagram has had some data leaks including 2 factor authentication exploits and a recent data leak where up to 6 million accounts were compromised.",
+        "value": 0.75
+    },
+    "userbase": {
+        "amount": 7,
+        "amountDetails": "1 Billion users."
+    },
+    "anonymous": {
+        "value": true,
+        "details": "You can make you account private, and therefore effectively anonymous. However if you chose not to, you are not anonymous."
+    },
+    "tracking": {
+        "cookies": true,
+        "cookiesDetails": "According to Instagram, if you set your browser to disable cookies or other technologies, you may not be able to access certain parts of our Service and other parts of our Service may not work properly.",
+        "SSO": true,
+        "SSODetails": "There are photography application out there that utilize Instagram's Single Sign On and that means that Instagram receives data that the app gathers from the user."
+    },
+    "ownership": {
+        "personalData":false,
+        "personalDataDetails": "Once you post a picture on Instagram, you lose ownership of that picture.",
+        "delete": true,
+        "deleteDifficulty": 1,
+        "deleteDetails": "Deleting an Instagram account is pretty simple and easy to find in settings." 
+    },
+    "notification": {
+        "notify": false,
+        "notifyDetails": "Instagram typically notifies its users of privacy policy changes, but users need to read the complicated private policy to actually know what the changes are."
+    },
+    "summary": {
+        "grade": "C",
+        "details":"Instagram allows users to have private profiles and they don't violate privacy of users outside of Instagram. That being said, Instagram has a poor history of security breaches and users have no ownership of the content they post on Instagram. Instagram also requires tracking cookies and SSO to function properly, compromising user privacy."
+    }
+}

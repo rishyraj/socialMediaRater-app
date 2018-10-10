@@ -1,0 +1,38 @@
+{
+    "history": {
+        "privacy": "D",
+        "privacyDetails": "Snapchat has had multiple privacy violations, and they recently settled with the FTC over privacy violation allegations.",
+        "security": "B",
+        "securityDetails": "Snapchat generally has good security, however their newest feature, Snap Maps, raises security and privacy concerns, but the good news is that a user can very easily opt out of this feature.",
+        "value": 0.7
+    },
+    "userbase": {
+        "amount": 4,
+        "amountDetails": "188 Million users."
+    },
+    "anonymous": {
+        "value": true,
+        "details": "Snapchat users can be looked up but, if configured properly, only the users friends can see the users content."
+    },
+    "tracking": {
+        "cookies": true,
+        "cookiesDetails": "According to Snapchat, cookies are an important part of how our services work, so removing, rejecting, or limiting the use of them could affect the availability and functionality of our services.",
+        "SSO": false,
+        "SSODetails": "Snapchat can only be accesed by Snapchat"
+    },
+    "ownership": {
+        "personalData":false,
+        "personalDataDetails": "Once you snap you lose effective ownership of the content as it can be accesesd by anyone who has access to your snaps, including Snapchat.",
+        "delete": true,
+        "deleteDifficulty": 1,
+        "deleteDetails": "Deleting a Snapchat account is pretty simple and easy to find in settings." 
+    },
+    "notification": {
+        "notify": false,
+        "notifyDetails": "Snapchat typically notifies its users of privacy policy changes, but users need to read the complicated private policy to actually know what the changes are."
+    },
+    "summary": {
+        "grade": "C",
+        "details": "Snapchat has good security but their newer features pose security threats to users, especially the snap map feature. Also the company has a poor history of respecting user privacy outside Snapchat, including accessing users contacts and SMS messages. Users of Snapchat lose their ownership rights to the content they post, due to the design philosphy of Snapchat. Snapchat can only be accessed from Snapchat, which significantly reduces what Snapchat can get from a user, but they can still have tracking cookies."
+    }
+}
