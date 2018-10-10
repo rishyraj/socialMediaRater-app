@@ -7,7 +7,6 @@ import t from 'tcomb-form-native';
 const Form = t.form.Form;
 
 const Profile = t.struct({
-  name: t.String,
   history: t.Boolean,
   anonymous: t.Boolean,
   cookies: t.Boolean,
@@ -17,9 +16,6 @@ const Profile = t.struct({
 
 const options = {
   fields: {
-    name: {
-      error: 'Please Insert Your Name, this name gets deleted once the app closes'
-    },
     history: {
       label: 'Should the company have a good history of data management and handling privacy concerns?'
     },
@@ -37,6 +33,8 @@ const options = {
     }
   }
 }
+
+var socialMedia = "";
 
 class HomeScreen extends React.Component {
   render() {
@@ -69,6 +67,19 @@ class GetStartedScreen extends React.Component {
     var value = this._formRef.getValue();
     if (value) {
       console.log('Value:', value);
+      if ((!value.history)&&(!value.anonymous)&&(!value.cookies)&&(!value.ownership)&&(!value.notify)) {
+        socialMedia = "Based on your profile, Twitter is a good match";
+      } else if ((!value.history)&&(!value.anonymous)&&(value.cookies)&&(!value.ownership)&&(!value.notify)) {
+        socialMedia = "Based on your profile, Facebook is a good match";
+      } else if ((!value.history)&&(value.anonymous)&&(value.cookies)&&(!value.ownership)&&(!value.notify)) {
+        socialMedia = "Based on your profile, Snapchat is a good match";
+      } else if ((value.history)&&(value.anonymous)&&(value.cookies)&&(!value.ownership)&&(!value.notify)) {
+        socialMedia = "Based on your profile, Instagram is a good match";
+      } else if ((!value.anonymous)){
+        socialMedia = "Unfortunately no such social media exists";
+      } else {
+        socialMedia = "Based on your profile, Reddit is a good match";
+      }
       this.props.navigation.navigate('Submit');
     }
   }
@@ -101,7 +112,7 @@ class SubmitScreen extends React.Component {
     return (
       <View style={{backgroundColor: '#353330', flex: 1}}>
         <View style={{alignItems:'center'}}>
-          <Text style ={styles.titleText}>Submission Successful</Text>
+          <Text style ={styles.titleText}>{socialMedia}</Text>
         </View>
       </View>
     );
