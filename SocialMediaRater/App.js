@@ -8,14 +8,35 @@ const Form = t.form.Form;
 
 const Profile = t.struct({
   name: t.String,
-  shouldTheCompanyHaveGoodHistoryWithDataManagement: t.Boolean,
-  doYouWantToBeAnonymous: t.Boolean,
-  doYouCareIfServiceUsesCookies: t.Boolean,
-  doYouWantOwnershipOfYourContent: t.Boolean,
-  doYouWantRightToClassActionLawsuit: t.Boolean,
-  doYouCareAboutCourtLocation: t.Boolean,
-  doYouWantToBeNotifiedOfPrivacyPolicyOrTermsOfServiceChanges: t.Boolean
+  history: t.Boolean,
+  anonymous: t.Boolean,
+  cookies: t.Boolean,
+  ownership: t.Boolean,
+  notify: t.Boolean
 });
+
+const options = {
+  fields: {
+    name: {
+      error: 'Please Insert Your Name, this name gets deleted once the app closes'
+    },
+    history: {
+      label: 'Should the company have a good history of data management and handling privacy concerns?'
+    },
+    anonymous: {
+      label: 'Do you want to be anonymous to other users?'
+    },
+    cookies: {
+      label: 'Do you want your service to use cookies, or anything similar to track you online?'
+    },
+    ownership: {
+      label: 'Do you want ownership of the content you post?'
+    },
+    notify: {
+      label: 'Do you want to be notified when changes are made to Privacy Policy or Terms of Service (ToS)?'
+    }
+  }
+}
 
 class HomeScreen extends React.Component {
   render() {
@@ -63,6 +84,7 @@ class GetStartedScreen extends React.Component {
             ref={(ref) => this._formRef=ref}
             type={Profile}
             placeholderTextColor='#d86813'
+            options={options}
           />
           <Button
             title="Submit Profile!"

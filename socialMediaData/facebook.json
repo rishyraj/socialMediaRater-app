@@ -1,0 +1,37 @@
+{
+    "history": {
+        "privacy": false,
+        "privacyDetails": "Facebook has had multiple privacy violations, including the infamous Cambridge Analytica Scandal; in fact it is so bad that the FTC is considering investigating them.",
+        "security": false,
+        "securityDetails": "Facebook has had multiple data leaks including one recently where 87 million accounts data was compromised"
+    },
+    "userbase": {
+        "amount": 10,
+        "amountDetails": "2.23 Billion users."
+    },
+    "anonymous": {
+        "value": false,
+        "details": "Your name is visible to others, as well as certain personal data (Birthday, Address etc.) can be made available based on user discretion."
+    },
+    "tracking": {
+        "cookies": true,
+        "cookiesDetails": "Facebook says \" We use cookies if you have a Facebook account, use the Facebook Products, including our website and apps, or visit other websites and apps that use the Facebook Products (including the Like button or other Facebook Technologies)\"",
+        "SSO": true,
+        "SSODetails": "According to the Facebook Developers page, SSO is Facebook's version of Oauth, and Facebook uses this to track users activity across the web and beyond. For example, if an app requires Facebook Login and the app gets location data from the phone's GPS, Facebook also has access to this data."
+    },
+    "ownership": {
+        "personalData":false,
+        "personalDataDetails": "Facebook says the following in its Private Policy Statement \" ...we may use all of the information we receive about you to serve ads that are more relevant to you...\"",
+        "delete": true,
+        "deleteDifficulty": 3,
+        "deleteDetails": "Facebook gives users two options: Deactivation or Deletion of Account. The first option is very simple to do, but the last option is much more difficult and it can take Facebook up to 6 months to delete your account." 
+    },
+    "notification": {
+        "notify": true,
+        "notifyDetails": "Facebook typically notifies its users of privacy policy changes, but it just sends a link to the privacy policy, which is overly complicated."
+    },
+    "summary": {
+        "grade": "F",
+        "details": "This service has has a poor history of respecting user privacy and securing data. On top of that, user privacy is completely disregarded due to Facebooks use of Tracking Cookies and SSO's, which allow Facebook to practically track your moves in the internet as well as real life. This is practically impossible to disable and most users are unaware of this. Facebook is also notoriously difficult to delete, as it is slightly hidden in the settings and it can take Facebook up to 6 months to completely delete your account."
+    }
+}
