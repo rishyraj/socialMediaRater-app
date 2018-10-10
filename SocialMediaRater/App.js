@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {AppRegistry, Text, View, StyleSheet, Button, ScrollView} from 'react-native';
+import {AppRegistry, Text,Image, View, StyleSheet, Button, ScrollView} from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 
 import t from 'tcomb-form-native';
@@ -109,13 +109,61 @@ class GetStartedScreen extends React.Component {
 
 class SubmitScreen extends React.Component {
   render() {
-    return (
-      <View style={{backgroundColor: '#353330', flex: 1}}>
-        <View style={{alignItems:'center'}}>
-          <Text style ={styles.titleText}>{socialMedia}</Text>
+    if (socialMedia==="Based on your profile, Twitter is a good match") {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/twitter.png')} style={{width: 150, height: 150}} />
+          </View>
         </View>
-      </View>
-    );
+      );
+    } else if (socialMedia==="Based on your profile, Facebook is a good match") {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/facebook.png')} style={{width: 150, height: 150}} />
+          </View>
+        </View>
+      );
+    } else if (socialMedia==="Based on your profile, Instagram is a good match") {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/instagram.png')} style={{width: 150, height: 150}}/>
+          </View>
+        </View>
+      );
+    } else if (socialMedia==="Based on your profile, Snapchat is a good match") {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/snapchat.png')} style={{width: 150, height: 150}} />
+          </View>
+        </View>
+      );
+    } else if (socialMedia==="Based on your profile, Reddit is a good match") {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/reddit.png')} style={{width: 150, height: 150}}/>
+          </View>
+        </View>
+      );
+    } else {
+      return (
+        <View style={{backgroundColor: '#353330', flex: 1}}>
+          <View style={{alignItems:'center'}}>
+            <Text style ={styles.titleText}>{socialMedia}</Text>
+            <Image source ={require('./assets/sad.png')} style={{width: 150, height: 150}} />
+          </View>
+        </View>
+      );
+    }
   }
 }
 
