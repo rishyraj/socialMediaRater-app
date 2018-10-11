@@ -1,7 +1,7 @@
 {
     "history": {
         "privacy": "D",
-        "privacyDetails": "Twitter has a history of not respecting privacy rights, the most recent one being a class action from New Mexico for allegedly violating kids' Privacy",
+        "privacyDetails": "Twitter has a history of not respecting privacy rights, the most recent one being a class action from New Mexico for allegedly violating kids' privacy.",
         "security": "F",
         "securityDetails": "Twitter has had a poor history of security, and frequently tells users to change its passwords due to data leaks.",
         "value": 0.55
@@ -12,11 +12,11 @@
     },
     "anonymous": {
         "value": false,
-        "details": "Twitter Users Names and posts are available for any user to see."
+        "details": "Twitter usernames and posts are available for any user to see."
     },
     "tracking": {
         "cookies": false,
-        "cookiesDetails": "Twitter can function without tracking cookies",
+        "cookiesDetails": "Twitter can function without tracking cookies.",
         "SSO": true,
         "SSODetails": "There are multiple apps on the appstore that uses Twitter Oauth to sign into their app. Depending on the app, Reddit may be getting tracking data."
     },
