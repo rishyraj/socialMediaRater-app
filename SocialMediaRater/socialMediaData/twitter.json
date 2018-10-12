@@ -18,7 +18,7 @@
         "cookies": false,
         "cookiesDetails": "Twitter can function without tracking cookies.",
         "SSO": true,
-        "SSODetails": "There are multiple apps on the appstore that uses Twitter Oauth to sign into their app. Depending on the app, Reddit may be getting tracking data."
+        "SSODetails": "There are multiple apps on the appstore that uses Twitter Oauth to sign into their app. Depending on the app, Twitter may be getting tracking data."
     },
     "ownership": {
         "personalData":true,
